@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7f7f7;
+}
+
+.screen {
+  padding: 20px;
+  max-width: 480px;
+  margin: auto;
+  background: #e4c1c1;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #482c2c;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background: #0c91dd;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0365aa;
+}
+
+button:active {
+  background: #004e8a;
+}
+
+#videoPlayer {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+#contenutoTesto {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.linkParola {
+  color: #332e97cc;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fumetto {
+  background: #e8d9d9;
+  border: 2px solid #3aa86b;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  line-height: 1.4;
+  position: absolute;
+  z-index: 999;
+}
+
+#listaBrani div,
+#listaGlossario p,
+#listaTesti div {
+  background: #e9d9d9f6;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+@media (max-width: 360px) {
+  button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  #contenutoTesto {
+    font-size: 16px;
+  }
+
+  .fumetto {
+    font-size: 15px;
+  }
+}
