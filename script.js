@@ -109,7 +109,9 @@ function apriAudio(id) {
   currentAudio = urlAudio;
   audioPlayer.src = urlAudio;
   audioPlayer.currentTime = 0;
-  audioPlayer.play();
+
+  // ⭐ AUTOPLAY RIMOSSO
+  // audioPlayer.play();
 }
 
 function apriVideo(id) {
