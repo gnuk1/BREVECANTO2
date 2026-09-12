@@ -86,7 +86,11 @@ button:active {
   border-radius: 8px;
 }
 
-/* ⭐ PLAYER AUDIO CENTRATO */
+/* ⭐ CENTRATURA PLAYER AUDIO */
+#audio {
+  text-align: center;   /* Centra tutto il contenuto della schermata audio */
+}
+
 #audioPlayer {
   display: block;
   margin: 0 auto;
@@ -106,3 +110,4 @@ button:active {
     font-size: 15px;
   }
 }
+
